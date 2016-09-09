@@ -45,7 +45,7 @@ def printNames2(users):
         print key
 
         #For loop cycles through the dictionary
-        for i in range(len(users[key])):
+        for i in range(len(users[key])): #I like this a lot
             fname = users[key][i]['first_name']
             lname = users[key][i]['last_name']
             #contactenates index, full_name, last_name, len(fullname + ' ' + last_name) and prints
@@ -54,3 +54,4 @@ def printNames2(users):
             print str(i+1) + ' - ' + fname + ' ' + lname + ' - ' + fname + ' ' + lname
 
 printNames2(users)
+#Looks great Andrew.  Knowing how to flip between dictionaries and lists is important
