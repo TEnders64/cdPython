@@ -29,3 +29,5 @@ def scoreGrades():
     print "End of the program. Bye!"
     
 scoreGrades()
+#Sweet use of Try & Except. as you saw from the demo today, you can omit having to be overly verbose with your if statements starting on line 8 since you already determine
+#that the score is already verified to be between 1 and 100.
